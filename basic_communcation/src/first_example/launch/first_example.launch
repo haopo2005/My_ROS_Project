@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+<node name ="simple_publisher" pkg="first_example"
+type="first_publisher"/>
+<node name ="simple_receiver" pkg="first_example"
+type="first_receiver"/>
+</launch>

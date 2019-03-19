@@ -1,0 +1,48 @@
+#how to build
+comment the cmakelist.txt properly
+catkin_make --> to build the message and srv header file
+source devel/setup.bash
+uncomment the cmakelist.txt
+catkin_make
+
+
+#simple communication
+Terminal 1
+roscore
+
+Terminal 2
+source devel/setup.bash
+rosrun first_example first_publisher
+
+Terminal 3
+source devel/setup.bash
+rosrun first_example first_receiver
+
+OR
+source devel/setup.bash
+roslaunch first_example first_example.launch
+
+
+#add server
+Terminal 1
+roscore
+
+Terminal 2
+source devel/setup.bash
+rosrun first_example add_server
+
+Terminal 3
+source devel/setup.bash
+rosrun first_example add_client 2 3 2
+
+#custom message publish and subscribe
+Terminal 1
+roscore
+
+Terminal 2
+source devel/setup.bash
+rosrun first_example msg_pub
+
+Terminal 3
+source devel/setup.bash
+rosrun first_example msg_sub

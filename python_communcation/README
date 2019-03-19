@@ -1,0 +1,17 @@
+#How to build
+catkin_make
+
+
+#how to run
+Terminal 1
+roscore
+
+Terminal 2
+source devel/setup.bash
+rosrun python_example custom_talker.py
+
+Terminal 3
+source devel/setup.bash
+rosrun python_example custom_listener.py
+
+
