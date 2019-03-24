@@ -26,5 +26,5 @@ rviz
 
 Add new plugins --> draw_image/JSTImageDisplay
 Choose the correct topics
-![](result/positive.png)
-![](result/negative.png)
+![](https://github.com/haopo2005/My_ROS_Project/blob/master/custom_rviz_plugins/result/negative.png)
+![](https://github.com/haopo2005/My_ROS_Project/blob/master/custom_rviz_plugins/result/positive.png)
