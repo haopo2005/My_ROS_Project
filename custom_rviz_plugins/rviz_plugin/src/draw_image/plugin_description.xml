@@ -1,0 +1,11 @@
+<library path="libdraw_image">
+  <class name="JST::JSTImageDisplay" type="JST::JSTImageDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays an image from a self defined Image topic, similar to IMAGE.
+    </description>
+    <message_type>sensor_msgs/Image</message_type>
+    <message_type>sensor_msgs/CompressedImage</message_type>
+    <message_type>theora_image_transport/Packet</message_type>
+    <message_type>draw_image/jst_image</message_type>
+  </class>
+</library>
