@@ -25,6 +25,7 @@ source devel/setup.bash
 rviz
 
 Add new plugins --> draw_image/JSTImageDisplay
+
 Choose the correct topics
 ![negative](https://github.com/haopo2005/My_ROS_Project/blob/master/custom_rviz_plugins/result/negative.png)
 ![positive](https://github.com/haopo2005/My_ROS_Project/blob/master/custom_rviz_plugins/result/positive.png)
