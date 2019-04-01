@@ -7,7 +7,7 @@
 
 int main(int argc, char** argv) {
 
-	ros::init(argc, argv, "state_publisher");
+	ros::init(argc, argv, "jst_state_publisher");
 	ros::NodeHandle n;
 	ros::Publisher odom_pub = n.advertise<nav_msgs::Odometry>("odom", 10);
 

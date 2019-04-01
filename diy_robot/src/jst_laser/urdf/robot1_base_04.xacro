@@ -220,7 +220,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="hokuyo.dae"/>
+        <mesh filename="package://jst_laser/meshes/hokuyo.dae"/>
       </geometry>
     </visual>
 
